@@ -1,0 +1,62 @@
+<svg class="triangles" width="784" height="391" viewBox="0 0 784 391" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path class="triangle-big"
+        d="M280.357 115.698C306.577 117.189 321.337 146.557 306.889 168.488L178.658 363.123C164.248 384.995 131.571 383.063 119.8 359.642L15.3278 151.78C3.55628 128.358 21.5026 100.983 47.6539 102.47L280.357 115.698Z"
+        fill="#e8473a63" />
+    <path class="triangle-small"
+        d="M604.626 55.2469C607.594 37.1955 629.025 29.139 643.15 40.7653L768.5 143.951C782.587 155.547 778.837 178.038 761.745 184.463L610.057 241.484C592.965 247.909 575.328 233.458 578.288 215.454L604.626 55.2469Z"
+        fill="#e8473a63" />
+    <style>
+
+        .triangle-big  {
+            animation: triangle-big  5s linear infinite;
+            transform-origin: 50% 50%;
+        }
+        
+        .triangle-small{
+            animation: triangle-small  5s linear infinite;
+        }
+        
+        @keyframes triangle-small {
+            0% {
+                transform: translate(-5%, 35%) rotate(0deg);
+            }
+        
+            25% {
+                transform: translate(-15%, -15%) rotate(20deg);
+            }
+        
+            50% {
+                transform: translate(-20%, 20%) rotate(-10deg);
+             
+            }
+            75% {
+                transform: translate(-20%, 15%) rotate(5deg);
+            }
+            100% {
+                transform: translate(-5%, 35%) rotate(0deg);
+            }
+        }
+        
+        @keyframes triangle-big {
+            0% { 
+                transform: translate(-12%, -50%) rotate(-60deg);
+            }
+        
+            25% {
+                transform: translate(20.6%, -10%) rotate(-5deg);
+            }
+        
+            50% {
+                transform: translate(0%, -10%) rotate(-5deg);
+            }
+        
+            75% {
+                transform: translate(10%, -40%) rotate(-20deg);
+            }
+        
+            100% {
+                transform: translate(-12%, -50%) rotate(-60deg);
+            }
+        }
+    </style>
+</svg>

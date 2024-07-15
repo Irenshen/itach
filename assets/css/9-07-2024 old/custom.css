@@ -1,0 +1,357 @@
+/*делталка новости*/
+
+.itach-block:not(:last-child) {
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.itach-block .title-l,
+.itach-block .text-l,
+.itach-block p:not(:last-child),
+.itach-block .itach-list:not(:last-child) {
+  margin-bottom: 60px;
+}
+
+.itach-block ul,
+.itach-block ol {
+  margin-top: 4px;
+}
+
+.itach-block ul li {
+  position: relative;
+  padding: 4px;
+  padding-left: 24px;
+}
+
+.itach-block ul li::before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 15px;
+  left: 9px;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: #222222;
+}
+
+.itach-wrap-custom .itach-block h3 {
+  margin-bottom: 50px;
+  font-family: "Bebas Neue Bold";
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #222222;
+  text-transform: uppercase;
+}
+
+.news-wrap-custom h2 {
+  margin-bottom: 40px;
+  font-family: "Gilroy Bold";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48.36px;
+}
+
+.news-wrap-custom h3 {
+  margin-bottom: 30px;
+  font-family: "Bebas Neue Bold";
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #222222;
+  text-transform: uppercase;
+}
+
+.news-wrap-custom a {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  display: inline;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  color: #222222;
+}
+
+.news-wrap-custom h5 {
+  font-family: "Tahoma";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #999999;
+}
+
+/* конец */
+
+.project-detailed-text h3 {
+  margin-bottom: 36px;
+  font-family: "Bebas Neue Bold";
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #222222;
+  text-transform: uppercase;
+}
+
+.project-detailed-text h3:not(:first-child) {
+  margin-top: 50px;
+}
+
+.project-detailed-text ul li {
+  position: relative;
+  padding: 4px;
+  padding-left: 24px;
+}
+
+.project-detailed-text ul li::before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 15px;
+  left: 9px;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: #222222;
+}
+
+input[type="text"]:invalid {
+  border: 1px solid red;
+}
+
+input[type="tel"]:invalid {
+  border: 1px solid red;
+}
+
+.section-otrasli-info .brunch-item:first-child {
+  padding: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.news-nav a {
+  color: #222222;
+}
+
+.section-offer-item__title.title a {
+  color: #222222;
+}
+
+.section-offer-item__title.title a:hover {
+  color: #e8473a;
+}
+
+.menu-dropdown-item .menu-dropdown-item__title a {
+  color: #222222;
+}
+
+.section-service-info__col-top .section-service-info__title a {
+  color: #222222;
+}
+
+.section-service-info__col-top .section-service-info__title a:hover {
+  color: #e8473a;
+}
+
+.section-service-info__col-top {
+  max-width: 60%;
+}
+
+.slider-nav:has(.swiper-button-disabled + .swiper-pagination + .swiper-button-disabled) {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.form-swiper.swiper-container .slider-nav-wrap .slider-nav {
+  opacity: 1;
+  visibility: visible;
+}
+
+.content-nav__title.service__title a {
+  font-family: "Gilroy Bold";
+  font-weight: 700;
+  color: #e8473a;
+}
+
+.menu-dropdown--mobile.menu-active {
+  overflow: auto;
+}
+
+.section-usp .title-l {
+  max-width: 780px;
+}
+
+.client-item img {
+  margin: 0 auto;
+}
+
+.client-item {
+  margin: 0 45px;
+}
+
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+  background-image: none;
+  display: flex;
+  align-items: center;
+  left: -45px;
+}
+
+
+
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-next {
+  background-image: none;
+  display: flex;
+  align-items: center;
+  right: -20px;
+}
+
+
+.slider-nav-wrap {
+  margin-left: calc(100% - 410px);
+}
+
+.btn-slider-wrap {
+  position: relative;
+}
+
+.slider-nav-text {
+  position: relative;
+}
+
+.btn-slider-wrap.after-left::after {
+  content: '';
+  position: absolute;
+  left: -15px;
+  width: 14px;
+  height: 14px;
+  border: solid #222222;
+  border-width: 0 2px 2px 0;
+  padding: 2px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.btn-slider-wrap.after-right::after {
+  content: '';
+  position: absolute;
+  left: 50px;
+  width: 14px;
+  height: 14px;
+  border: solid #222222;
+  border-width: 0 2px 2px 0;
+  padding: 2px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.section-specializations__row:nth-child(5) {
+  padding: 32px 280px 0;
+
+}
+
+.form-order__inner-center {
+  justify-content: center;
+}
+
+.services-detail-page .tizer-item span,
+.otrasli-detail-page .tizer-item span {
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 16px;
+}
+
+.section-integration .content-block h3:not(.text-l) {
+  font-family: "Gilroy Bold";
+  font-size: 21px;
+  line-height: 24px;
+  color: #222222;
+  margin-bottom: 12px;
+}
+
+
+@media screen and (max-width: 1240px) {
+  .about-page .itach-block .text-l {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
+
+
+.vue-portal-target .b24-window-popup.b24-window-popup-p-center {
+  z-index: 10000000;
+}
+
+@media screen and (max-width: 680px) {
+  .itach-block:not(:last-child) {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+
+  .itach-block .title-l,
+  .itach-block .text-l,
+  .itach-block p:not(:last-child),
+  .itach-block .itach-list:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+  .news-wrap-custom h2 {
+    margin-bottom: 30px;
+  }
+
+  .news-wrap-custom h3 {
+    margin-bottom: 30px;
+  }
+
+  .form-order__inner:first-child {
+    max-width: 100%;
+  }
+
+  .form__radio-btn label {
+    width: 100%;
+  }
+
+  .slider-nav-wrap {
+    margin: auto;
+  }
+
+  .nav-container .swiper-pagination {
+    width: 190px;
+  }
+
+  .slider-nav-text {
+    font-size: 14px;
+  }
+
+
+
+  .btn-slider-wrap.after-right::after {
+    left: 40px;
+  }
+
+  .form-order__inner {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .swiper-button-prev,
+  .swiper-container-rtl .swiper-button-next {
+    left: -20px;
+  }
+
+  .swiper-button-next,
+  .swiper-container-rtl .swiper-button-next {
+    right: -5px;
+  }
+
+  .services-detail-page .section-tizer__inner,
+  .otrasli-detail-page .section-tizer__inner {
+    max-width: 100%;
+  }
+}

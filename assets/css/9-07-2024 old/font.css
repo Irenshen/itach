@@ -1,0 +1,42 @@
+/* main-text-style */
+@font-face {
+  font-family: "Gilroy Regular";
+  src: url("../font/Gilroy-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy Bold";
+  src: url("../font/Gilroy-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy ExtraBold";
+  src: url("../font/Gilroy-ExtraBold.ttf");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Tahoma";
+  src: url("../font/tahoma.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bebas Neue Regular";
+  src: url("../font/bebasneueregular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bebas Neue Bold";
+  src: url("../font/bebasneuebold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
